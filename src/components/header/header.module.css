@@ -1,0 +1,15 @@
+.mainStyle {
+    height: 60px;
+    text-align: center;
+
+}
+
+.headerDarkTheme {
+    background: black;
+    color: snow;
+}
+
+.headerLightTheme {
+    background: darkgrey;
+    color: black;
+}
