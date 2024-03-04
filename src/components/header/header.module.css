@@ -1,15 +1,61 @@
-.mainStyle {
-    height: 60px;
-    text-align: center;
+.headerMainStyle {
+    box-sizing: border-box;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 35px;
+}
 
+.activeGenreTitle {
+    width: 15%;
+    text-align: center;
 }
 
 .headerDarkTheme {
-    background: black;
     color: snow;
+    border: 1px solid white;
 }
 
+
 .headerLightTheme {
-    background: darkgrey;
+    background-color: darkgray;
+    opacity: 0.9;
     color: black;
+    border: 1px solid black;
+}
+
+.iconAndThemeSwitcher {
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.headerTitle {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLinks {
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 22px;
+}
+
+.headerLinks a:hover {
+    color: white;
+}
+
+.headerLinks a[class='active'] {
+    text-decoration: underline;
 }

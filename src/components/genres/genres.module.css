@@ -1,0 +1,38 @@
+.genresListMain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 5px;
+    max-height: 86vh;
+    width: 11vw;
+    padding: 20px 20px 20px 25px;
+    box-sizing: border-box;
+    border: 2px solid cornflowerblue;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.genresListMain p {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.genresDarkTheme p {
+    color: white;
+}
+
+.genresLightTheme p {
+    color: black;
+}
+
+.genresListMain p:hover {
+    cursor: pointer;
+    color: cornflowerblue;
+    text-decoration: underline;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px cornflowerblue;
+}
+
+

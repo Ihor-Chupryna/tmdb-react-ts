@@ -1,0 +1,12 @@
+.foundMoviesButton {
+    margin: 20px;
+}
+
+.foundMoviesMain {
+    display: flex;
+    justify-content: space-around;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px 35px 30px 40px;
+}
+

@@ -1,13 +1,14 @@
-import { FC } from "react";
+import { useLoaderData } from "react-router-dom";
 
-interface IProps {
+import { MovieDetails } from "../../components";
+import { IMovieDetails } from "../../interfaces";
 
-}
+const MovieDetailsPage = () => {
+    const {data} = useLoaderData() as { data: IMovieDetails };
 
-const MovieDetailsPage: FC<IProps> = () => {
     return (
         <div>
-            MovieDetailsPage
+            <MovieDetails movie={data}/>
         </div>
     );
 };

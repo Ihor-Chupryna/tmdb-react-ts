@@ -1,0 +1,10 @@
+.genresForMDMain {
+    margin: 30px 10px 30px 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    width: 60vw;
+    padding-right: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+}

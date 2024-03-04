@@ -1,0 +1,5 @@
+.moviePageMain {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px 65px;
+}

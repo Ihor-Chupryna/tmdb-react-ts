@@ -1,9 +1,16 @@
-import { Movies } from "../../components";
+import { MoviePagination, Genres, Movies } from "../../components";
+import css from './moviesPage.module.css';
 
 const MoviesPage = () => {
+    let totalPages = 499;
+
     return (
         <div>
-            <Movies/>
+            <div className={css.moviePageMain}>
+                <Genres/>
+                <Movies/>
+            </div>
+            <MoviePagination totalPages={totalPages}/>
         </div>
     );
 };

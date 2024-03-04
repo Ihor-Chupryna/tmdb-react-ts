@@ -1,0 +1,18 @@
+.findFormMain {
+    display: flex;
+    column-gap: 3px;
+}
+
+.findFormMain input {
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.findFormMain button {
+    border-radius: 50px;
+}
+
+.findFormMain button:hover {
+    background: cornflowerblue;
+}

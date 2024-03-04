@@ -1,6 +1,11 @@
 import { ISetState } from "../types";
 
 export interface IContextData {
-    trigger: boolean,
-    setTrigger: ISetState<boolean>
+    themeTrigger: boolean;
+    setThemeTrigger: ISetState<boolean>;
+    currentPage: string;
+    setCurrentPage: ISetState<string>;
+    genreId: string;
+    genreName: string;
+    genreSetter: (id: string, name: string) => void
 }

@@ -1,12 +1,15 @@
 import { Outlet } from "react-router-dom";
 
 import { Header } from "../components";
+import css from './mainLayout.module.css'
+import { useAppContext } from "../hooks";
 
 const MainLayout = () => {
+    const {themeTrigger} = useAppContext();
     return (
-        <div>
+        <div className={`${themeTrigger ? css.mainStyleDerkTheme : css.mainStyleLightDark}`}>
             <Header/>
-            <Outlet/>
+            <div><Outlet/></div>
         </div>
     );
 };
